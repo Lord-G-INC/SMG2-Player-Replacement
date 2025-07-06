@@ -1,0 +1,15 @@
+{
+  "Name": "PlayerFollowActor",
+  "Author": "Bavario",
+  "Description": "Adds an actor that replaces the player model. More changes will be made in the future.",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "ModuleData": [{
+    "NameObjFactory" : [
+        {
+          "Name" : "PlayerFollowActor",
+          "Function" : "createExtActor<PlayerFollowActor>",
+          "Include" : "PlayerFollowActor.h"
+        }
+    ]
+  }]
+}
